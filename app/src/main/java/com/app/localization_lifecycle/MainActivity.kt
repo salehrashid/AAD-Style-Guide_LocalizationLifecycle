@@ -28,30 +28,30 @@ class MainActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         Log.d("Activity", "onStart invoke")
-        Toast.makeText(this, "On Start", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, " ${getString(R.string.onStart)}", Toast.LENGTH_SHORT).show()
     }
 
     override fun onResume() {
         super.onResume()
         Log.d("Activity", "onResume invoke")
-        Toast.makeText(this, "On Resume", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, " ${getString(R.string.onResume)}", Toast.LENGTH_SHORT).show()
     }
 
     override fun onPause() {
         super.onPause()
         Log.d("Activity", "onPause invoke")
-        Toast.makeText(this, "On Pause", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, " ${getString(R.string.onPause)}", Toast.LENGTH_SHORT).show()
     }
 
     override fun onStop() {
         super.onStop()
         Log.d("Activity", "onStop invoke")
-        Toast.makeText(this, "On Stop", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, " ${getString(R.string.onStop)}", Toast.LENGTH_SHORT).show()
     }
 
     override fun onDestroy() {
         super.onDestroy()
         Log.d("Activity", "onDestroy invoke")
-        Toast.makeText(this, "On Destory", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, " ${getString(R.string.onDestroy)}", Toast.LENGTH_SHORT).show()
     }
 }

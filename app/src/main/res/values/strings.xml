@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Localization-lifecycle</string>
     <string name="click_button">Click</string>
+
+    <string name="onStart">On Start invoke</string>
+    <string name="onResume">On Resume invoke</string>
+    <string name="onPause">On Pause invoke</string>
+    <string name="onStop">On Stop invoke</string>
+    <string name="onDestroy">On Destroy invoke</string>
 </resources>

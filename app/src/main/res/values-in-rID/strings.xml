@@ -2,4 +2,10 @@
 <resources>
     <string name="app_name">Localization-lifecycle</string>
     <string name="click_button">Klik</string>
+
+    <string name="onStart">Memanggil On Start</string>
+    <string name="onResume">Memanggil On Resume</string>
+    <string name="onPause">Memanggil On Pause</string>
+    <string name="onStop">Memanggil On Stop</string>
+    <string name="onDestroy">Memanggil On Destroy</string>
 </resources>
